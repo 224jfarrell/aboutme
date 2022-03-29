@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Arabic&display=swap');
+
+body {
+  background-color: rgb(107, 157, 159) !important;
+  font-family: 'IBM Plex Sans Arabic', sans-serif;
+  padding-top: 10px;
+  padding-left: 10px;
+}
+
+.test {
+  width: 100%;
+}
+
+.link, .link:hover, .link:active, .link:visited {
+  text-decoration: none;
+  color: black;
+}
+
+.inline {
+  display: inline;
+}
+
+.green {
+  color: #0f0;
+  animation-name: "gtb";
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+  -webkit-animation-name: "gtb";
+  -webkit-animation-duration: 10s;
+  -webkit-animation-iteration-count: infinite;
+}
+
+@keyframes gtb{
+  0%, 100%{
+    color: #0f0;
+  }
+  50%{
+    color: #0ff;
+  }
+}
